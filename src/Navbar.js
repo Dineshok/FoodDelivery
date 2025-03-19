@@ -8,7 +8,7 @@ function Navbar() {
   const navigate = useNavigate();
 
   function showTheCart() {
-    navigate("shopingCart");
+    navigate("/shopingCart");
   }
 
   const currentCart = useSelector((output) => {
